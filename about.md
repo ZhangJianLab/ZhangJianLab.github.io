@@ -7,37 +7,36 @@ permalink: /about/
 <strong>第十六届全国大学生智能汽车竞赛百度组国家级一等奖(南通大学首次)</strong> 完成者: 杨启硕、泮佳俊、祁瀚文、孙楚迪、付晨。<br>
 比赛简介: 该比赛基于深度学习的智能车在实际领域中的应用，将深度学习技术赋予机器智能行为。团队在原有硬件的基础上通过PaddlePaddle框架以及AI studio在线开发平台，利用计算机视觉技术、车道线定位和识别技术、交通标志与指示牌的检测和识别技术、目标物检测与识别技术等多种人工智能技术配合传感器以及机械结构使用，实现小车的自主巡航、模型推理、侧方停车、抓取物块、倾倒小球、击中靶心等任务。
 <br>
-![image]()
-<img src="test3.jpg" alt="Paul Soto pic" style="width:420px;height:360px;" title="智能汽车"; algin="middle">
+![image](https://github.com/ZhangJianLab/ZhangJianLab.github.io/blob/main/test3.jpg)
 <br>
 
 <strong>第十六届全国大学生智能汽车竞赛电磁越野组国家级二等奖</strong> 完成者: 赵恒、张帆。<br>
 比赛简介: 该比赛在电磁循迹小车自动控制上引入AI开发方式，用基于数据的设计思路去解决控制的问题。引导车获得采集电感与对应本次电感数据对应的舵机打角值，然后将数据打包成一个7个电感采集值与舵机打角值数据组成的数据包，并将此数据包通过无线串口发送至自主开发的上位机，经 Python 搭建的神经网络训练后得出模型，通过 nncu将模型部署在TC377单片机上，最后通过部署完成的智能小车完成电磁循迹。
 <br>
-<img src="test7.jpg" alt="Paul Soto pic" style="width:420px;height:360px;" title="智能汽车"; algin="middle">
+![image](https://github.com/ZhangJianLab/ZhangJianLab.github.io/blob/main/test7.jpg)
 <br>
 
 <strong>第十五届全国大学生智能汽车竞赛百度组国家级二等奖</strong> 完成者: 周昆阳、殷佳炜、冯文宇。<br>
 比赛简介: 团队通过运用深度学习的方法进行标志物检测并完成各项任务，前期在服务器上训练模型，并将模型部署到官方提供的小车上，利用控制算法完成各项任务。
 <br>
-<img src="test4.jpg" alt="Paul Soto pic" style="width:420px;height:360px;" title="智能汽车"; algin="middle">
+![image](https://github.com/ZhangJianLab/ZhangJianLab.github.io/blob/main/test4.jpg)
 <br>
 
 <strong>全国大学生工程能力竞赛物流赛项国家级铜奖</strong> 完成者: 李昀迪、刘鑫慧、张宸萌、周昆阳。<br>
 比赛简介: 该比赛侧重对学生动手能力、编程能力考察，学生前期需要自己制作电路板，并对其性能进行测试，同时物流小车的结构也需要自行进行设计，根据比赛方提供的要求。完成对车整体结构设计后，需要学生利用C语言编写小车任务程序，并对其中的参数进行调优，使其能够准确、迅速地完成指定的任务。
 <br>
-<img src="test5.jpg" alt="Paul Soto pic" style="width:420px;height:360px;" title="智能汽车"; algin="middle">
+![image](https://github.com/ZhangJianLab/ZhangJianLab.github.io/blob/main/test5.jpg)
 <br>
 
 
 <strong>Robomaster全国大学生机器人大赛国家级二等奖(南通大学首次)</strong> 完成者: 李昀迪、周昆阳。<br>
 比赛简介: 作为国内首个激战类机器人竞技比赛，RoboMaster大赛在其诞生伊始就凭借其颠覆传统的比赛方式、震撼人心的视听冲击力、激烈硬朗的竞技风格，吸引到全国数百所高等院校、近千家高新科技企业以及数以万计的科技爱好者的深度关注。参赛队员将通过比赛获得宝贵的实践技能和战略思维，将理论与实践相结合，在激烈的竞争中打造先进的智能机器人。
 <br>
-<img src="test6.jpg" alt="Paul Soto pic" style="width:420px;height:360px;" title="智能汽车"; algin="middle">
+![image](https://github.com/ZhangJianLab/ZhangJianLab.github.io/blob/main/test6.jpg)
 <br>
 
 <strong>江苏省工程能力竞赛无人机队伍省级特等奖</strong> 完成者: 殷佳炜、张帆、赵晨曦、王硕。<br>
 比赛简介: 该项目在在传统开源飞控pixhawk的基础上，引入Jetson nano作为主控制器，搭载激光雷达、双目相机、TOF传感器、usb摄像头等传感器，运用slam、yolo、人工势场法等人工智能算法，在ROS 的架构和通信机制实现四旋翼飞行器的API控制、自主定位、自主环境感知与地图构建、自主障碍物规避以及基于计算机视觉与深度学习的目标识别与视觉制导。
 <br>
-<img src="test8.jpg" alt="Paul Soto pic" style="width:420px;height:360px;" title="智能汽车"; algin="middle">
+![image](https://github.com/ZhangJianLab/ZhangJianLab.github.io/blob/main/test8.jpg)
 <br>
