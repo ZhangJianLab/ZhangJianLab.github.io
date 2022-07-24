@@ -1,0 +1,77 @@
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108085250-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108085250-1');
+</script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="EBNpnv4GiHJTmePgRajamxrYtJnc6WlqDyWUITDaSMo" >
+  <!-- add description and keywords for SEO -->
+  {% seo %}
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.keywords %}
+ <meta name="keywords" content="{{ page.keywords }}" />
+  {% else %}
+ <meta name="keywords" content="Paul Soto, paul soto upf, paul soto universitat pompeu fabra, Paul Soto UPF, UPF, paul soto barcelona, paul soto barcelona, python, text mining, paul soto python, textual analysis, skip gram, finance, economics, capital controls, capital controls corporate debt, capital controls corporate debt real effects, fabiani pineros peydro soto, colombia capital controls, fabiani capital controls, fabiani peydro pineros soto, fabiani pineros capital controls, corporate debt, real effects, stress testing iyer peydro abbassi soto, breaking, word, bank, evidence, largest, ever, supervisory, review, capital, real, effects" />
+ {% endif %}
+  {% if site.name %}
+  <meta name="author" content="{{ site.name }}">
+  <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
+  {% endif %}
+
+  <!-- External libraries -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/styles/monokai_sublime.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
+
+  <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
+   <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta name="theme-color" content="#ffffff">
+
+  {% if site.protocols.fb_image %}
+  <!-- Facebook OGP cards -->
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{% if page.cover %}{{ page.cover | prepend: "/covers/" | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.protocols.fb_image | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
+  <meta property="og:image:type" content="{{ site.protocols.fb_image_type }}" />
+  <meta property="og:image:width" content="{{ site.protocols.fb_image_width }}" />
+  <meta property="og:image:height" content="{{ site.protocols.fb_image_height }}" />
+    {% if site.protocols.fb_app_id %}
+      <meta property="fb:app_id" content="{{ site.protocols.fb_app_id }}" />
+    {% endif %}
+  {% endif %}
+
+  {% if site.protocols.twitter_image %}
+  <!-- Twitter: card tags -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.cover %}{{ page.cover | prepend: "/covers/" | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.protocols.twitter_image | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta name="twitter:url" content="{{ site.url }}">
+  {% endif %}
+
+  {% if protocols.os_repo and protocols.os_rcs_type and protocols.os_src %}
+  <!-- Open Source Protocol -->
+  <link rel="profile" href="http://osprotocol.com" />
+  <meta property="os:repo" content="{{ protocols.os_repo }}" />
+  <meta property="os:rcs_type" content="{{ protocols.os_rcs_type }}" />
+  <meta property="os:src" content="{{ protocols.os_src }}" />
+  {% endif %}
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+</head>

@@ -1,0 +1,53 @@
+
+# Site settings
+title: Paul E. Soto
+name: Paul E. Soto
+subtitle: Financial Economist
+email: paul.soto@upf.edu
+description: >
+  Financial Economist
+baseurl: ""
+url: "https://pesoto.github.io/"
+github_username:  pesoto
+disqus_baseurl: "https://pesoto.github.io/"
+disqus_shortname: https-pesoto-github-io
+permalink: :title
+google-site-verification: "EBNpnv4GiHJTmePgRajamxrYtJnc6WlqDyWUITDaSMo"
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: "/page:num/"
+inter_post_navigation: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      author: "Paul E. Soto"
+
+
+
+# External gems
+gems:
+  - jekyll-paginate
+  - jemoji
+  - jekyll-seo-tag
+
+
+
+social:
+  - name: GitHub
+    icon: github
+    username: pesoto
+    url: https://github.com/pesoto
+    desc: Fork me on GitHub
+    share: false
+
+  - name: LinkedIn
+    icon: linkedin
+    username: Paul E. Soto
+    url: https://linkedin.com/pesoto
+    desc: Connect with me on LinkedIn
+    share: true
