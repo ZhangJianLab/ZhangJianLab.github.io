@@ -36,7 +36,6 @@ permalink: /about/
 <br>
 
 <strong>全国大学生电子设计竞赛国家级三等奖</strong> 完成者: 李昀迪等。<br>
-<br>
 
 <strong>江苏省机器人大赛一等奖4项</strong> 完成者: 万滋林、顾豪杰、唐一鸣、何欣樾。<br>
 <br>
